@@ -48,6 +48,7 @@ node *A::pop()
 	if(Stack == NULL) return 0;
 	else
 	{
+		int i = 1;
 		node *temp, *s;
 		s = Stack;
 		temp = s->next;
